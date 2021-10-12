@@ -10,13 +10,14 @@ extern "C" {
     #include "blake2s.h"
     #include "c11.h"
     #include "cryptonight.h"
-    #include "cryptonight_fast.h"
-    /*#include "cryptonote/cryptonight_dark_lite.h"
-    #include "cryptonote/cryptonight_dark.h"
+    #include "cryptonote/cryptonight.h"
+    #include "cryptonote/cryptonight_fast.h"
     #include "cryptonote/cryptonight_lite.h"
+    #include "cryptonote/cryptonight_dark.h"
+    #include "cryptonote/cryptonight_dark_lite.h"
     #include "cryptonote/cryptonight_soft_shell.h"
+    #include "cryptonote/cryptonight_turtle.h"
     #include "cryptonote/cryptonight_turtle_lite.h"
-    #include "cryptonote/cryptonight_turtle.h"*/
     #include "fresh.h"
     #include "fugue.h"
     #include "gost.h"
@@ -232,9 +233,9 @@ using namespace v8;
  DECLARE_CALLBACK(x16rv2, x16rv2_hash, 32);
  DECLARE_CALLBACK(x17, x17_hash, 32);
  DECLARE_CALLBACK(xevan, xevan_hash, 32);
+ DECLARE_CALLBACK(ghostrider, gr_hash, 32);
 
 
- DECLARE_NO_INPUT_LENGTH_CALLBACK(gr, gr_hash, 32);
  DECLARE_NO_INPUT_LENGTH_CALLBACK(allium, allium_hash, 32);
  DECLARE_NO_INPUT_LENGTH_CALLBACK(bcrypt, bcrypt_hash, 32);
  DECLARE_NO_INPUT_LENGTH_CALLBACK(lyra2re2, lyra2re2_hash, 32);
@@ -612,7 +613,6 @@ DECLARE_INIT(init) {
     NODE_SET_METHOD(exports, "fresh", fresh);
     NODE_SET_METHOD(exports, "fugue", fugue);
     NODE_SET_METHOD(exports, "gost", gost);
-    NODE_SET_METHOD(exports, "ghostrider", gr);
     NODE_SET_METHOD(exports, "groestl", groestl);
     NODE_SET_METHOD(exports, "groestlmyriad", groestlmyriad);
     NODE_SET_METHOD(exports, "hefty1", hefty1);
@@ -651,6 +651,7 @@ DECLARE_INIT(init) {
     NODE_SET_METHOD(exports, "x17", x17);
     NODE_SET_METHOD(exports, "xevan", xevan);
     NODE_SET_METHOD(exports, "yescrypt", yescrypt);
+    NODE_SET_METHOD(exports, "ghostrider", ghostrider);
 }
 
 NODE_MODULE(multihashing, init)
