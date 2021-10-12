@@ -3,11 +3,11 @@
 #include <string.h>
 
 #include "sha256.h"
-#include <sha3/sph_blake.h>
-#include <sha3/sph_bmw.h>
-#include <sha3/sph_groestl.h>
-#include <sha3/sph_jh.h>
-#include <sha3/sph_keccak.h>
+#include <sph/sph_blake.h>
+#include <sph/sph_bmw.h>
+#include <sph/sph_groestl.h>
+#include <sph/sph_jh.h>
+#include <sph/sph_keccak.h>
 #include <sha3/sph_skein.h>
 #include <sha3/sph_luffa.h>
 #include <sha3/sph_cubehash.h>
