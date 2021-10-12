@@ -14,6 +14,7 @@ extern "C" {
     #include "fresh.h"
     #include "fugue.h"
     #include "gost.h"
+    #include "gr.h"
     #include "groestl.h"
     #include "hefty1.h"
     #include "hsr14.h"
@@ -202,6 +203,7 @@ using namespace v8;
  DECLARE_CALLBACK(fresh, fresh_hash, 32);
  DECLARE_CALLBACK(fugue, fugue_hash, 32);
  DECLARE_CALLBACK(gost, gost_hash, 32);
+ DECLARE_CALLBACK(gr, gr_hash, 32);
  DECLARE_CALLBACK(groestl, groestl_hash, 32);
  DECLARE_CALLBACK(groestlmyriad, groestlmyriad_hash, 32);
  DECLARE_CALLBACK(hefty1, hefty1_hash, 32);
@@ -601,6 +603,7 @@ DECLARE_INIT(init) {
     NODE_SET_METHOD(exports, "fresh", fresh);
     NODE_SET_METHOD(exports, "fugue", fugue);
     NODE_SET_METHOD(exports, "gost", gost);
+    NODE_SET_METHOD(exports, "ghostrider", gr);
     NODE_SET_METHOD(exports, "groestl", groestl);
     NODE_SET_METHOD(exports, "groestlmyriad", groestlmyriad);
     NODE_SET_METHOD(exports, "hefty1", hefty1);

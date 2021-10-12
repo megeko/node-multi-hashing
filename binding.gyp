@@ -15,6 +15,7 @@
                 "fresh.c",
                 "fugue.c",
                 "gost.c",
+                "gr.c",
                 "groestl.c",
                 "hefty1.c",
                 "hsr14.c",
