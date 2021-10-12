@@ -20,7 +20,7 @@
 #include "sha3/sph_whirlpool.h"
 #include "sha3/sph_sha2.h"
 
-#include "ccommon.h"
+//#include "ccommon.h"
 
 #define TIME_MASK 0xffffff80
 
