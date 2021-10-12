@@ -49,8 +49,9 @@ Algorithms
 **43. X15**             `x15`               <br/>
 **44. X16R**            `x16r`              <br/>
 **45. X16RV2**          `x16rv2`            <br/>
-**46. X17**             `x17`               <br/>
-**47. X21S**            `x21s`              <br/>
-**48. XEVAN**           `xevan`             <br/>
-**49. YESCRYPT**        `yescrypt`          <br/>
-**50. GHOSTRIDER**      `ghostrider`        <br/>
+**46. X16RT**           `x16rt`             <br/>
+**47. X17**             `x17`               <br/>
+**48. X21S**            `x21s`              <br/>
+**49. XEVAN**           `xevan`             <br/>
+**50. YESCRYPT**        `yescrypt`          <br/>
+**51. GHOSTRIDER**      `ghostrider`        <br/>

@@ -58,6 +58,7 @@
                 "algos/x13.c",
                 "algos/x15.c",
                 "algos/x16r.c",
+                "algos/x16rt.c",
                 "algos/x17.c",
                 "algos/x21s.c",
                 "algos/xevan.c",

@@ -54,6 +54,7 @@ extern "C" {
     #include "x13.h"
     #include "x15.h"
     #include "x16r.h"
+    #include "x16rt.h"
     #include "x17.h"
     #include "x21s.h"
     #include "xevan.h"
@@ -232,6 +233,7 @@ using namespace v8;
  DECLARE_CALLBACK(x15, x15_hash, 32);
  DECLARE_CALLBACK(x16r, x16r_hash, 32);
  DECLARE_CALLBACK(x16rv2, x16rv2_hash, 32);
+ DECLARE_CALLBACK(x16rt, x16rt_hash, 32);
  DECLARE_CALLBACK(x17, x17_hash, 32);
  DECLARE_CALLBACK(x21s, x21s_hash, 32);
  DECLARE_CALLBACK(xevan, xevan_hash, 32);
@@ -650,6 +652,7 @@ DECLARE_INIT(init) {
     NODE_SET_METHOD(exports, "x15", x15);
     NODE_SET_METHOD(exports, "x16r", x16r);
     NODE_SET_METHOD(exports, "x16rv2", x16rv2);
+    NODE_SET_METHOD(exports, "x16rt", x16rt);
     NODE_SET_METHOD(exports, "x17", x17);
     NODE_SET_METHOD(exports, "x21s", x21s);
     NODE_SET_METHOD(exports, "xevan", xevan);
