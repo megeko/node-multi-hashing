@@ -1,4 +1,4 @@
-**0.  ALLIUM**          `allium` 
+**0.  ALLIUM**          `allium` \n
 **1.  BCRYPT**          `bcrypt`
 **2.  BLAKE**           `blake`
 **3.  BLAKE2S**         `blake2s`
