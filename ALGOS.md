@@ -50,6 +50,7 @@ Algorithms
 **44. X16R**            `x16r`              <br/>
 **45. X16RV2**          `x16rv2`            <br/>
 **46. X17**             `x17`               <br/>
-**47. XEVAN**           `xevan`             <br/>
-**48. YESCRYPT**        `yescrypt`          <br/>
-**49. GHOSTRIDER**      `ghostrider`        <br/>
+**47. X21S**            `x21s`              <br/>
+**48. XEVAN**           `xevan`             <br/>
+**49. YESCRYPT**        `yescrypt`          <br/>
+**50. GHOSTRIDER**      `ghostrider`        <br/>
