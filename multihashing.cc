@@ -203,7 +203,6 @@ using namespace v8;
  DECLARE_CALLBACK(fresh, fresh_hash, 32);
  DECLARE_CALLBACK(fugue, fugue_hash, 32);
  DECLARE_CALLBACK(gost, gost_hash, 32);
- DECLARE_CALLBACK(gr, gr_hash, 32);
  DECLARE_CALLBACK(groestl, groestl_hash, 32);
  DECLARE_CALLBACK(groestlmyriad, groestlmyriad_hash, 32);
  DECLARE_CALLBACK(hefty1, hefty1_hash, 32);
@@ -228,6 +227,8 @@ using namespace v8;
  DECLARE_CALLBACK(x17, x17_hash, 32);
  DECLARE_CALLBACK(xevan, xevan_hash, 32);
 
+
+ DECLARE_NO_INPUT_LENGTH_CALLBACK(gr, gr_hash, 32);
  DECLARE_NO_INPUT_LENGTH_CALLBACK(allium, allium_hash, 32);
  DECLARE_NO_INPUT_LENGTH_CALLBACK(bcrypt, bcrypt_hash, 32);
  DECLARE_NO_INPUT_LENGTH_CALLBACK(lyra2re2, lyra2re2_hash, 32);
