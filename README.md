@@ -3,6 +3,9 @@ node-multi-hashing
 ===============
 
 
+[![Build Status](https://app.travis-ci.com/megeko/node-multi-hashing.svg?branch=main)](https://app.travis-ci.com/megeko/node-multi-hashing)
+
+
 Cryptocurrency hashing functions for node.js.
 
 
