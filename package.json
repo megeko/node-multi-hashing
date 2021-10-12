@@ -1,6 +1,6 @@
 {
     "name": "multi-hashing",
-    "version": "0.0.9",
+    "version": "0.0.2",
     "main": "multi-hashing for node js",
     "author": {
         "name": "Matthew Little",
