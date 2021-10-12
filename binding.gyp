@@ -98,7 +98,13 @@
                 "crypto/hash.c",
                 "crypto/oaes_lib.c",
                 "crypto/odocrypt.cpp",
-                "crypto/wild_keccak.cpp"
+                "crypto/wild_keccak.cpp",
+                "cryptonote/cryptonight_dark_lite.h",
+                "cryptonote/cryptonight_dark.h",
+                "cryptonote/cryptonight_lite.h",
+                "cryptonote/cryptonight_soft_shell.h",
+                "cryptonote/cryptonight_turtle_lite.h",
+                "cryptonote/cryptonight_turtle.h"
             ],
             'conditions': [
                 ['OS=="linux"',
