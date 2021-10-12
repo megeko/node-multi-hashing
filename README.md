@@ -58,6 +58,9 @@ Credits
 * [scrypt](http://en.wikipedia.org/wiki/Scrypt) - Colin Percival
 * [bcrypt](http://en.wikipedia.org/wiki/Bcrypt) - Niels Provos and David Mazières
 * [X11](http://www.darkcoin.io/), [Hefty1](http://heavycoin.github.io/about.html), [Quark](http://www.qrk.cc/) creators (they just mixed together a bunch of the above algos)
-* [npq7721](https://github.com/npq7721) & **contributors** for creation of [gr_hash](https://github.com/npq7721/gr_hash)
 
+<br/>
+
+* [npq7721](https://github.com/npq7721) & **contributors** for creation of [gr_hash](https://github.com/npq7721/gr_hash)
+* [RPGCoin](https://github.com/RPGCoin) & **contributors** for creation of [node-x21s](https://github.com/RPGCoin/node-x21s)
 * [zone117x](https://github.com/zone117x) & **contributors** for creation of [node-multi-hashing](https://github.com/zone117x/node-multi-hashing)
