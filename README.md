@@ -1,42 +1,13 @@
-## This repo is looking for maintainers! Please reach out if interested.
-
---------
-
-
 
 node-multi-hashing
 ===============
 
-[![Build Status](https://travis-ci.org/zone117x/node-multi-hashing.png?branch=master)](https://travis-ci.org/zone117x/node-multi-hashing)
-
-[![NPM](https://nodei.co/npm/multi-hashing.png?downloads=true&stars=true)](https://nodei.co/npm/multi-hashing/)
 
 Cryptocurrency hashing functions for node.js.
 
 
-Algorithms
-----------
-* quark
-* x11
-* x13
-* nist5
-* scrypt
-* scryptn
-* scryptjane
-* keccak
-* bcrypt
-* skein
-* groestl
-* blake
-* fugue
-* qubit
-* hefty1
-* shavite3
-* cryptonight
-* boolberry
-* sha256d
-* lbry
-* ghostrider
+See Algorithms : [ALGOS.md](ALGOS.md)
+
 
 Usage
 -----
@@ -44,7 +15,7 @@ Usage
 Install
 
 ```bash
-npm install multi-hashing
+npm install https://github.com/megeko/node-multi-hashing.git --save
 ```
 
 So far this native Node.js addon can do the following hashing algos
@@ -52,7 +23,7 @@ So far this native Node.js addon can do the following hashing algos
 ```javascript
 var multiHashing = require('multi-hashing');
 
-var algorithms = ['quark', 'x11', 'scrypt', 'scryptn', 'scryptjane', 'keccak', 'bcrypt', 'skein', 'blake'];
+var algorithms = [ 'quark', 'scryptjane' ];
 
 var data = Buffer.from("7000000001e980924e4e1109230383e66d62945ff8e749903bea4336755c00000000000051928aff1b4d72416173a8c3948159a09a73ac3bb556aa6bfbcad1a85da7f4c1d13350531e24031b939b9e2b", "hex");
 
@@ -87,3 +58,5 @@ Credits
 * [scrypt](http://en.wikipedia.org/wiki/Scrypt) - Colin Percival
 * [bcrypt](http://en.wikipedia.org/wiki/Bcrypt) - Niels Provos and David Mazières
 * [X11](http://www.darkcoin.io/), [Hefty1](http://heavycoin.github.io/about.html), [Quark](http://www.qrk.cc/) creators (they just mixed together a bunch of the above algos)
+
+* [zone117x](https://github.com/zone117x) for creation of [node-multi-hashing](https://github.com/zone117x/node-multi-hashing)
