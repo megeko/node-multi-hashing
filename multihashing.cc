@@ -11,12 +11,12 @@ extern "C" {
     #include "c11.h"
     #include "cryptonight.h"
     #include "cryptonight_fast.h"
-    #include "cryptonight_dark_lite.h"
-    #include "cryptonight_dark.h"
-    #include "cryptonight_lite.h"
-    #include "cryptonight_soft_shell.h"
-    #include "cryptonight_turtle_lite.h"
-    #include "cryptonight_turtle.h"
+    #include "cryptonote/cryptonight_dark_lite.h"
+    #include "cryptonote/cryptonight_dark.h"
+    #include "cryptonote/cryptonight_lite.h"
+    #include "cryptonote/cryptonight_soft_shell.h"
+    #include "cryptonote/cryptonight_turtle_lite.h"
+    #include "cryptonote/cryptonight_turtle.h"
     #include "fresh.h"
     #include "fugue.h"
     #include "gost.h"
@@ -444,6 +444,7 @@ DECLARE_FUNC(cryptonight) {
     }
     SET_BUFFER_RETURN(output, 32);
 }
+
 DECLARE_FUNC(cryptonightfast) {
     DECLARE_SCOPE;
 #if NODE_MAJOR_VERSION >= 12
@@ -496,6 +497,7 @@ DECLARE_FUNC(cryptonightfast) {
     }
     SET_BUFFER_RETURN(output, 32);
 }
+
 DECLARE_FUNC(boolberry) {
     DECLARE_SCOPE;
 #if NODE_MAJOR_VERSION >= 12
