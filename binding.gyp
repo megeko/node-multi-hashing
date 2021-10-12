@@ -59,6 +59,7 @@
                 "x15.c",
                 "x16r.c",
                 "x17.c",
+                "x21s.c",
                 "xevan.c",
                 "zr5.c",
                 "sha3/aes_helper.c",
