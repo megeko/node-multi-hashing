@@ -66,7 +66,7 @@ extern "C" {
 #include "odo.h"
 
 using namespace node;
-using namespace v8;
+using namespace v14;
 
 #if NODE_MAJOR_VERSION >= 4
 
